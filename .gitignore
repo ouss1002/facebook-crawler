@@ -1,0 +1,5 @@
+node_modules/
+.vscode/
+result/
+tmp/
+debug.log
