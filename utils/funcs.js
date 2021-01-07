@@ -1,3 +1,5 @@
+// This file contains utility functions needed in the project
+
 function timeFromDate(date) {
 	let temp = date.split("T")[1].split(".")[0];
 	temp = temp.split(":");
