@@ -1,3 +1,5 @@
+// This file is used as a last resort if automatic connecting doesn't work
+
 const puppeteer = require('puppeteer');
 const devices = puppeteer.devices;
 const rules = require('./utils/rules');
