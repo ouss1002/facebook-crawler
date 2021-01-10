@@ -1,3 +1,5 @@
+// Run this file to start crawling after you filled in the links in './utils/rules.js'
+
 const puppeteer = require('puppeteer');
 const devices = puppeteer.devices;
 const rules = require('./utils/rules');
