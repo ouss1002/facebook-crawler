@@ -1,3 +1,5 @@
+// This file is executed when trying to login automatically using the bot
+
 const puppeteer = require('puppeteer');
 const devices = puppeteer.devices;
 const rules = require('./utils/rules');
@@ -40,9 +42,12 @@ screenshotCounter = 1;
     await page.waitForSelector('input[type="email"]');
     await page.waitForSelector('input[type="password"]');
     
+
+    // Filling the form
     await page.type('input[type="email"]', rules.email);
     await page.type('input[type="password"]', rules.password);
 
+    // Pressing the Login button
     await page.click('button[name="login"]');
 
     await page.waitForNavigation();
