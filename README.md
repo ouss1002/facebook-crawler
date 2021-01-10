@@ -19,3 +19,9 @@ Made using [puppeteer](https://github.com/puppeteer/puppeteer/).
 ## After Crawling
 The result of the crawling will be saved to the folder `./results/`  
 Every profile has its own directory `./results/profile_id`
+
+### Excel File
+To generate the excel file:
+  - Run `node ./excelizer.js`
+  - Open `./data.xlsx`
+  - Enjoy analytics
