@@ -1,3 +1,5 @@
+// This file builds the excel file from the ./results folder
+
 const fs = require('fs');
 const json2xls = require('json2xls');
 
